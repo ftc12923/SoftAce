@@ -1,0 +1,48 @@
+.loginpage {
+    background-color: #EAEAEA;
+}
+
+.actualusernameinput {
+    height: 37px; 
+    min-width: 18em;
+    padding: 0px 10px; 
+    font-size: 16px; 
+    font-family: "Open Sans", sans-serif; 
+    border: 0; 
+    border-radius: 4px;
+    margin-bottom: 31px; 
+    background-color: #f3f3f3;
+    border-color: black;  
+    margin-top: 10px; 
+    margin-left: 520px; 
+}
+
+.actualuserpasswordinput {
+    height: 37px; 
+    min-width: 18em;
+    padding: 0px 10px; 
+    font-size: 16px; 
+    font-family: "Open Sans", sans-serif; 
+    border: 0; 
+    border-radius: 4px;
+    margin-bottom: 31px; 
+    background-color: #f3f3f3;
+    border-color: black;
+    margin-top: 10px; 
+    margin-left: 520px;
+}
+
+.getinaccountbutton {
+    background-color: #626ee3;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 630px;
+}
+
+.getinaccountbutton:hover {
+    background-color: #C53976;
+    transition-duration: 0.2s;
+}

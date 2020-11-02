@@ -1,0 +1,129 @@
+.homeheader {
+    background-color: #02203c;
+}
+
+.softacetitle {
+    color: white; 
+    margin-left: 65px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 55px; 
+}
+
+.softacetitle:hover {
+    color: #1B9292; 
+    transition-duration: 2.5s;
+
+
+}
+
+.softacemockinterviewsa {
+    color: #f44292; 
+    text-decoration: none; 
+    margin-left: 75px;
+}
+
+.softacemockinterviewsa:hover {
+    color: white;
+    transition-duration: 0.5s; 
+}
+
+.softacelivestreamsa {
+    color: #f44292; 
+    text-decoration: none; 
+    margin-left: 155px;
+
+}
+
+.softacelivestreamsa:hover {
+    color: white; 
+    transition-duration: 0.5s;
+}
+
+.softaceteama {
+    color: #f44292; 
+    text-decoration: none; 
+    margin-left: 155px;
+
+}
+
+.softaceteama:hover {
+    color: white; 
+    transition-duration: 0.5s;
+
+}
+
+.softacepreviewa {
+    color: #f44292; 
+    text-decoration: none; 
+    margin-left: 155px;
+
+}
+
+.softacepreviewa:hover {
+    color: white; 
+    transition-duration: 0.5s;
+
+}
+
+.homeheader__softacetitle, .homeheader__softacemockinterviewsa, .homeheader__softacelivestreamsa, .homeheader__softaceteama, .homeheader__softacepreviewa{
+    display: inline-block;
+
+}
+
+.homeheader__softacedesc > h3 {
+    color: #1B9292; 
+    margin-left: 5px;
+
+}
+
+.homeheader__softacedesc > h3:hover {
+    color: #C53976; 
+    transition-duration: 2.5s;
+}
+
+.getstartedbtn {
+    background-color: #626ee3;
+    border: none;
+    color: white; 
+    cursor: pointer; 
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 555px;
+    margin-bottom: 5px;
+}
+
+.getstartedbtn:hover {
+    background-color: #02203c; 
+    color: #C53976;  
+    transition-duration: 2.5s;
+
+}
+
+.checkboxiconget {
+    margin-left: 5px;
+}
+
+.loginstartbtn {
+    background-color: #626ee3;
+    border: none;
+    color: white; 
+    cursor: pointer; 
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 600px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.loginstartbtn:hover {
+    background-color: #02203c; 
+    color: #C53976;  
+    transition-duration: 2.5s;
+}
+
+.vpnkeyicon {
+    margin-left: 5px;
+
+}

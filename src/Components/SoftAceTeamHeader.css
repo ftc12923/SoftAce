@@ -1,0 +1,14 @@
+.softaceteamheader {
+    background-color: #02203c;
+    color: white; 
+    font-family: 'Electrolize', sans-serif; 
+}
+
+.softaceteamheader:hover {
+    color: #C53976; 
+    transition-duration: 0.2s;
+}
+
+.softaceteamheadertitle {
+    margin-left: 525px;
+}

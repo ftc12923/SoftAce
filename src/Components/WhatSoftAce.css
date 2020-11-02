@@ -1,0 +1,132 @@
+.titleone {
+    margin-top: 10px;
+    margin-left: 540px;
+}
+
+.titleone:hover {
+    color: #f44292; 
+    transition-duration: 0.2s;
+
+}
+
+.titletwo {
+    margin-left: 6px;
+}
+
+.titletwo:hover {
+    color: #f44292; 
+    transition-duration: 0.2s;
+
+}
+
+.titlethree { 
+    margin-left: 6px;
+}
+
+.titlethree:hover {
+    color: #f44292; 
+    transition-duration: 0.2s;
+
+}
+
+.whatsoftace__titleone, .whatsoftace__titletwo, .whatsoftace__titlethree {
+    display: inline-block;
+}
+
+.abtparagraph {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.whatsoftace__findusersad {
+    background-color: #040404; 
+    color: white; 
+}
+
+.whatsoftace__findusersad:hover {
+    background-color: #02203c;
+    color: #f44292; 
+    transition-duration: 0.3s;
+
+}
+
+.findusersadheader {
+    margin-right: 28px;
+}
+
+.randompersoniconagain {
+    margin-left: 652px;
+}
+
+.findusersadmiddletext {
+    margin-right: 10px;
+}
+
+.whatsoftace__videocallsad {
+    background-color: #2C2D2C;
+    color: white; 
+}
+
+.whatsoftace__videocallsad:hover {
+    background-color: #02203c;
+    color: #f44292; 
+    transition-duration: 0.3s
+
+}
+
+.videocallsadheader {
+    margin-right: 28px; 
+}
+
+.anotherrandomvideocallicon {
+    margin-left: 652px;
+
+}
+
+.videocallsaddmiddletext {
+    margin-right: 10px;
+
+}
+
+.whatsoftace__codeexecutionenvad {
+    background-color: #3F403F; 
+    color: white; 
+}
+
+.whatsoftace__codeexecutionenvad:hover {
+    background-color: #02203c;
+    color: #f44292; 
+    transition-duration: 0.3s
+
+}
+
+.codeexecutionenvadheader {
+    margin-right: 28px;
+
+}
+
+.anotherrandomcodeicon {
+    margin-left: 652px;
+
+}
+
+.codeexecutionenvadmiddletext {
+    margin-right: 10px;
+
+}
+
+.gettingstartedbuttonagain {
+    background-color: #626ee3; 
+    color: white; 
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    border: none;
+    cursor: pointer; 
+    margin-top: 5px;
+    margin-left: 535px;
+}
+
+.gettingstartedbuttonagain:hover {
+    background-color: #C53976;
+    transition-duration: 0.2s;
+}

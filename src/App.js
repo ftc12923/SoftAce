@@ -1,26 +1,95 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Component} from 'react'; 
+import fire from './config/Fire'; 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route, 
+  Link 
+} from "react-router-dom";  
+import './App.css'; 
+import HomeHeader from './Components/HomeHeader'; 
+import SoftAceTeamHeader from './Components/SoftAceTeamHeader';
+import WhatSoftAce from './Components/WhatSoftAce'; 
+import SignUpPage from './Components/SignUpPage'; 
+import LoginPage from './Components/LoginPage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ 
+
+
+ 
+
+class App extends Component{
+  constructor(props) {
+    super(props); 
+    this.state = {
+      user: {}, 
+
+    }
+  }
+
+  componentDidMount(){
+    this.authListener(); 
+  }
+
+
+  authListener() {
+    fire.auth().onAuthStateChanged((user) => {
+      //console.log(user); 
+      if(user) {
+        this.setState({ user }); 
+        //localStorage.setItem('user', user.uid); 
+      } else {
+        this.setState({ user: null });
+        //localStorage.removeItem('user');  
+
+      }
+
+    })
+  }
+
+
+  render() {
+    return (
+      <Router>
+        <div className="app">
+          <Switch>
+          
+           <Route path="/login">
+             <LoginPage />
+            
+           </Route>
+           <Route path="/signup">
+             <SignUpPage />
+  
+           </Route>
+           <Route path="/livestreams">
+  
+           </Route> 
+           <Route path="/mockinterviews">
+  
+           </Route>
+           <Route path="/preview">
+  
+           </Route>
+           <Route path="/team">
+             <SoftAceTeamHeader />
+  
+           </Route>
+           <Route path="/">  
+           <HomeHeader />
+           <WhatSoftAce />
+           </Route>  
+          </Switch>
+        </div>
+  
+      </Router>
+      
+    );
+    
+  }
+  
+  
+} 
 
 export default App;

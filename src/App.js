@@ -76,7 +76,9 @@ class App extends Component{
              <SoftAceTeamHeader />
   
            </Route>
-           <Route path="/dashboard"></Route>
+           <Route path="/dashboard">
+             
+           </Route>
            <Route path="/">  
            <HomeHeader />
            <WhatSoftAce />

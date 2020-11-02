@@ -1,0 +1,14 @@
+.dashboardheader {
+    background-color: #02203c; 
+}
+
+.dashboardheaderthemockinterviewsplace {
+    color: #f44292; 
+    text-decoration: none; 
+    margin-left: 55px;
+}
+
+.dashboardheaderthemockinterviewsplace:hover {
+    color: white; 
+    transition-duration: 0.5s; 
+}

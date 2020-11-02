@@ -13,6 +13,7 @@ import SoftAceTeamHeader from './Components/SoftAceTeamHeader';
 import WhatSoftAce from './Components/WhatSoftAce'; 
 import SignUpPage from './Components/SignUpPage'; 
 import LoginPage from './Components/LoginPage';
+import DashboardHeader from './Components/DashboardHeader';
 
  
 
@@ -77,7 +78,8 @@ class App extends Component{
   
            </Route>
            <Route path="/dashboard">
-             
+             <DashboardHeader />
+
            </Route>
            <Route path="/">  
            <HomeHeader />

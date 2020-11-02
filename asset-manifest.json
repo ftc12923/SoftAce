@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SoftAce/static/css/main.6a88cfa2.chunk.css",
+    "main.js": "/SoftAce/static/js/main.14ebfd92.chunk.js",
+    "main.js.map": "/SoftAce/static/js/main.14ebfd92.chunk.js.map",
+    "runtime-main.js": "/SoftAce/static/js/runtime-main.3ecc26b4.js",
+    "runtime-main.js.map": "/SoftAce/static/js/runtime-main.3ecc26b4.js.map",
+    "static/js/2.0492eb33.chunk.js": "/SoftAce/static/js/2.0492eb33.chunk.js",
+    "static/js/2.0492eb33.chunk.js.map": "/SoftAce/static/js/2.0492eb33.chunk.js.map",
+    "index.html": "/SoftAce/index.html",
+    "precache-manifest.ada748302a893fc04d523c2072e8d268.js": "/SoftAce/precache-manifest.ada748302a893fc04d523c2072e8d268.js",
+    "service-worker.js": "/SoftAce/service-worker.js",
+    "static/css/main.6a88cfa2.chunk.css.map": "/SoftAce/static/css/main.6a88cfa2.chunk.css.map",
+    "static/js/2.0492eb33.chunk.js.LICENSE.txt": "/SoftAce/static/js/2.0492eb33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ecc26b4.js",
+    "static/js/2.0492eb33.chunk.js",
+    "static/css/main.6a88cfa2.chunk.css",
+    "static/js/main.14ebfd92.chunk.js"
+  ]
+}

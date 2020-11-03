@@ -19,7 +19,7 @@ function HomeHeader() {
                 <a className="softacemockinterviewsa" href="/mockinterviews">Coding Interviews</a>
             </div>
             <div className="homeheader__softacelivestreamsa">
-                <a className="softacelivestreamsa" href="/livestreams">Live Streams</a>
+                <a className="softacelivestreamsa" href="https://kasinadhuniprogrammer.io/SoftAce/livestreams">Live Streams</a>
             </div>
             <div className="homeheader__softaceteama">
                 <a className="softaceteama" href="/team">The SoftAce Team</a>

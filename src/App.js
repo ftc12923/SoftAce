@@ -64,7 +64,7 @@ class App extends Component{
              <SignUpPage />
   
            </Route>
-           <Route path="/livestreams">
+           <Route path="kasinadhuniprogrammer.io/SoftAce/livestreams">
   
            </Route> 
            <Route path="/mockinterviews">
